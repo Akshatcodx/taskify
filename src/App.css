@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-creator {
+  margin-bottom: 20px;
+}
+
+.task-creator input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.task-creator button {
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-creator button:hover {
+  background-color: #0088cc;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.column-header span {
+  font-weight: bold;
+}
+
+.task-list {
+  min-height: 200px;
+}
+
+.task-card {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
